@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val url = "https://gist.githubusercontent.com/ricardoalcocer/ea0aa7b7f50361ea9eed3f9374890135/raw/9e574d2de097539070b42c2a8fc9420a1a741b69/data.json"
+        val url = "https://gist.githubusercontent.com/ricardoalcocer/ea0aa7b7f50361ea9eed3f9374890135/raw/8725574d814cf72651d0cc785e35f42183f287ee/data.json"
         AsyncTaskHandler().execute(url)
 
     }
